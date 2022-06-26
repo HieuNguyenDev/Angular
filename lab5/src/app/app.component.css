@@ -1,0 +1,30 @@
+body{
+    background-color: #3C4858;
+}
+.container >header { height: 120px;}
+.container >nav { height: 60px;}
+.container > main { display: flex; min-height: 400px;}
+.container > footer { height: 35px; line-height: 35px;}
+
+nav{
+    background-color: #1f283e;
+    color: #fff;
+}
+
+.timkiem{
+    background: linear-gradient(60deg, #7b1fa2, #913f9e);
+    box-shadow: 0 4px 20px 0px rgb(0 0 0 / 14%), 0 7px 10px -5px rgb(156 39 176 / 40%);
+}
+
+footer{
+    background-color: #1f283e;
+}
+
+main{
+    background-color: #ccc;
+}
+
+button{
+    background: linear-gradient(60deg, #7b1fa2, #913f9e);
+    box-shadow: 0 4px 20px 0px rgb(0 0 0 / 14%), 0 7px 10px -5px rgb(156 39 176 / 40%);
+}

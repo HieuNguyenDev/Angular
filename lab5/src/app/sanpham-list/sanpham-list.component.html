@@ -1,0 +1,5 @@
+<p *ngFor="let sp of listSanPham">
+    {{sp.tensp}} - {{sp.giasp}} - {{sp.ngay}} 
+    <a href="#" (click)="suaSP(sp)">Sửa</a> &nbsp;  
+    <a href="#" (click)="xoaSP(sp.id)">Xóa</a> 
+</p>
